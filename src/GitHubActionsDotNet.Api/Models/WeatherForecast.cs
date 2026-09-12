@@ -2,6 +2,7 @@ namespace GitHubActionsDotNet.Api.Models;
 
 public record WeatherForecast
 {
+    //comment
     public DateOnly Date { get; init; }
 
     public int TemperatureC { get; init; }
@@ -10,3 +11,6 @@ public record WeatherForecast
 
     public string? Summary { get; init; }
 }
+
+
+
